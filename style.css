@@ -1,0 +1,106 @@
+p,
+ul,
+ol,
+table,
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Outfit;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  color: hsl(24, 5%, 18%);
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  padding-left: 10px;
+}
+
+h2,
+.color {
+  color: hsl(14, 45%, 36%);
+}
+
+.gap {
+  padding-left: 25px;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.in {
+  margin-left: 350px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  padding: 40px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  width: 650px;
+  line-height: 25px;
+  color: hsl(30, 10%, 34%);
+}
+
+.inside {
+  background-color: hsla(332, 61%, 37%, 0.15);
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  line-height: 28px;
+}
+
+.line {
+  width: 100%;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  margin-top: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  line-height: 1.8em;
+}
+
+.last {
+  border-bottom: none;
+}
+
+.b_gap {
+  padding-left: 30px;
+}
+
+ul > li ::maker {
+  color: hsl(332, 51%, 32%);
+}
+
+::marker {
+  color: hsl(14, 45%, 36%);
+  font-size: small;
+  font-weight: bold;
+}
+
+footer p {
+  font-size: small;
+  margin-top: 50px;
+}
